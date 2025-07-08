@@ -1,0 +1,187 @@
+{
+  "foods": [
+    {
+      "id": "1",
+      "name": "Nasi Goreng",
+      "price": 15000,
+      "image": "https://via.placeholder.com/400x300?text=Mie+Ayam",
+      "rating": 1,
+      "reviews": [
+        "Enak banget!",
+        "Mantap, recommended!"
+      ],
+      "review": "a"
+    },
+    {
+      "id": "2",
+      "name": "Mie Ayam",
+      "price": 12000,
+      "image": "https://via.placeholder.com/400x300?text=Mie+Ayam",
+      "rating": 5,
+      "reviews": [
+        "Enak banget!",
+        "Mantap, recommended!",
+        "Asinnya pas"
+      ],
+      "review": "hhh"
+    },
+    {
+      "id": "d48b",
+      "name": "Bakso",
+      "price": 15000,
+      "image": "https://via.placeholder.com/400x300?text=Mie+Ayam",
+      "rating": 4.5,
+      "reviews": [
+        "Enak banget!",
+        "Mantap, recommended!"
+      ]
+    },
+    {
+      "id": "dd26",
+      "name": "Nasi Padang",
+      "price": 15000,
+      "image": "https://via.placeholder.com/400x300?text=Mie+Ayam",
+      "rating": 4.5,
+      "reviews": [
+        "Enak banget!",
+        "Mantap, recommended!"
+      ]
+    },
+    {
+      "id": "8249",
+      "name": "Mie Goreng",
+      "price": 10000,
+      "image": "",
+      "rating": 5,
+      "review": "Pas Asinnya"
+    },
+    {
+      "id": "daff",
+      "name": "Mie Rebus",
+      "price": 10000,
+      "image": ""
+    },
+    {
+      "id": "2f68",
+      "name": "Mie Aceh",
+      "price": 20000,
+      "image": ""
+    }
+  ],
+  "drinks": [
+    {
+      "id": "1",
+      "name": "Es Teh Manis",
+      "price": 8000,
+      "image": "https://link-gambar-esteh.jpg",
+      "reviews": [
+        "Enak banget!",
+        "Mantap, recommended!"
+      ]
+    },
+    {
+      "id": "1106",
+      "name": "Jus Jeruk",
+      "price": 12000,
+      "image": ""
+    },
+    {
+      "id": "489c",
+      "name": "Jus Alpukat",
+      "price": 12000,
+      "image": ""
+    },
+    {
+      "id": "cad8",
+      "name": "Jus Buah Naga",
+      "price": 12000,
+      "image": ""
+    },
+    {
+      "id": "ec1d",
+      "name": "Jus Wortel",
+      "price": 12000,
+      "image": ""
+    },
+    {
+      "id": "45f6",
+      "name": "Teh Telur",
+      "price": 10000,
+      "image": ""
+    },
+    {
+      "id": "06cc",
+      "name": "Bandrek",
+      "price": 12000,
+      "image": ""
+    },
+    {
+      "id": "8fa3",
+      "name": "Kopi Tradisional",
+      "price": 13000,
+      "image": ""
+    }
+  ],
+  "orders": [
+    {
+      "id": "e778",
+      "items": [
+        {
+          "id": "1106",
+          "name": "Jus Jeruk",
+          "price": 12000,
+          "image": ""
+        },
+        {
+          "id": "1",
+          "name": "Es Teh Manis",
+          "price": 8000,
+          "image": "https://link-gambar-esteh.jpg",
+          "reviews": [
+            "Enak banget!",
+            "Mantap, recommended!"
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Mie Ayam",
+          "price": 12000,
+          "image": "https://via.placeholder.com/400x300?text=Mie+Ayam",
+          "rating": 5,
+          "reviews": [
+            "Enak banget!",
+            "Mantap, recommended!",
+            "Asinnya pas"
+          ],
+          "review": "hhh"
+        },
+        {
+          "id": "daff",
+          "name": "Mie Rebus",
+          "price": 10000,
+          "image": ""
+        },
+        {
+          "id": "dd26",
+          "name": "Nasi Padang",
+          "price": 15000,
+          "image": "https://via.placeholder.com/400x300?text=Mie+Ayam",
+          "rating": 4.5,
+          "reviews": [
+            "Enak banget!",
+            "Mantap, recommended!"
+          ]
+        }
+      ],
+      "total": 62000,
+      "timestamp": "7/8/2025, 7:46:57 PM"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123"
+    }
+  ]
+}
