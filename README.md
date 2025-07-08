@@ -1,99 +1,106 @@
-Aplikasi Pemesanan Makanan dan Minuman - Rasa Nusantara
-Aplikasi ini adalah sebuah proyek berbasis Vue.js yang dirancang untuk mensimulasikan sistem pemesanan makanan dan minuman secara daring (online). Aplikasi ini menargetkan pengalaman pengguna yang responsif, intuitif, dan profesional baik untuk pelanggan maupun untuk admin yang mengelola data menu makanan dan minuman.
+Berikut adalah versi **revisi deskripsi proyek** dengan **tema "Modern Minimalis Kuliner"** — tetap mempertahankan fitur utama, namun menyesuaikan gaya, nuansa, dan semangat modern minimalis:
 
-Aplikasi ini mencakup seluruh alur pemesanan, mulai dari memilih makanan atau minuman, memasukkannya ke keranjang, melakukan pemesanan, melihat riwayat transaksi, serta memberikan ulasan dan rating terhadap produk yang tersedia.
+---
 
-Tujuan Proyek
-Tujuan dari proyek ini adalah untuk menunjukkan pemahaman dan penerapan komponen-komponen penting dalam pengembangan frontend modern, seperti penggunaan framework Vue.js, manajemen state menggunakan Pinia, konsumsi data dari backend menggunakan axios, serta pembuatan user interface manual CSS dengan desain yang bersih dan profesional.
+## 🍴 Aplikasi Pemesanan Makanan dan Minuman - *Rasa Nusantara*
 
-Proyek ini dibuat sebagai bagian dari Tugas Akhir/Ujian Akhir Semester mata kuliah Pengembangan Berbasis Komponen.
+**Rasa Nusantara** adalah aplikasi pemesanan makanan dan minuman berbasis **Vue.js 3** yang mengusung tema **Modern Minimalis Kuliner**. Aplikasi ini menghadirkan antarmuka yang bersih, sederhana, dan responsif, memprioritaskan **kenyamanan pengguna** dan **efisiensi navigasi**, baik bagi pelanggan maupun admin.
 
-Fitur Pengguna (Customer)
-Halaman Beranda (Home)
-Halaman utama aplikasi menyambut pengguna dengan pesan pembuka serta tombol navigasi yang mengarahkan ke halaman daftar menu makanan, menu minuman, dan halaman keranjang belanja.
+---
 
-Daftar Menu Makanan
-Menampilkan daftar makanan lengkap dengan foto, nama, harga, dan efek loading shimmer saat gambar dimuat.
+### 🎯 Tujuan Proyek
 
-Fitur "Tambah ke Keranjang" untuk menyimpan makanan ke dalam daftar belanja.
+Proyek ini dikembangkan untuk menunjukkan **kemampuan pengembangan frontend modern** menggunakan:
 
-Fitur "Pesan Langsung" untuk melakukan pemesanan satu item tanpa masuk ke keranjang.
+* Framework **Vue.js**
+* **Pinia** sebagai manajemen state global
+* **Axios** untuk konsumsi REST API dari **JSON Server**
+* Desain **manual CSS** bergaya modern minimalis: layout bersih, warna netral, fokus pada tipografi dan tata ruang
+* Simulasi alur kerja nyata sistem pemesanan online dari sisi pengguna dan admin
 
-Fitur "Rating dan Ulasan":
+Proyek ini dibuat sebagai bagian dari **Tugas Akhir/Ujian Akhir Semester** untuk mata kuliah *Pengembangan Berbasis Komponen*.
 
-Pengguna dapat memberikan rating (1-5) dan komentar.
+---
 
-Ditampilkan rata-rata rating yang dihitung dari semua ulasan.
+### 👤 Fitur untuk Pengguna
 
-Daftar Menu Minuman
-Menampilkan daftar minuman dengan format dan fitur yang sama dengan daftar makanan.
+#### Beranda
 
-Terdapat input rating dan komentar serta tombol kirim ulasan yang terhubung langsung ke server menggunakan JSON Server.
+* Tampilan bersih dengan **navigasi utama minimalis**
+* Akses cepat ke menu makanan, minuman, dan keranjang belanja
 
-Keranjang Belanja
-Menampilkan semua makanan dan minuman yang telah ditambahkan oleh pengguna.
+#### Menu Makanan & Minuman
 
-Fitur untuk menghapus item dengan konfirmasi terlebih dahulu.
+* Galeri produk dengan **foto berkualitas**, nama, harga, dan loading shimmer
+* Tombol **"Tambah ke Keranjang"** dan **"Pesan Langsung"**
+* Sistem **Ulasan & Rating** (1–5 bintang + komentar)
+* Rata-rata rating ditampilkan secara dinamis
 
-Fitur untuk memesan semua isi keranjang sekaligus dengan pop-up konfirmasi.
+#### Keranjang Belanja
 
-Perhitungan total harga otomatis.
+* Tampilan item secara vertikal dengan **tata letak rapi**
+* Fitur hapus item dengan **modal konfirmasi**
+* Tombol **Pesan Semua**, lengkap dengan perhitungan total harga otomatis
 
-Riwayat Pemesanan
-Menyimpan data semua pemesanan yang dilakukan, baik dari menu langsung maupun dari keranjang.
+#### Riwayat Pemesanan
 
-Setiap pesanan ditampilkan dalam bentuk struk seperti nota kasir.
+* Struk digital setiap transaksi
+* Tampilkan waktu, total, dan detail item
+* Opsi hapus riwayat per transaksi
 
-Terdapat tombol untuk menghapus riwayat tertentu.
+#### Tentang Kami
 
-Data pesanan mencakup item, total harga, dan waktu transaksi.
+* Halaman dengan **tata letak editorial minimalis**
+* Cerita singkat sejarah dan filosofi "Rasa Nusantara"
 
-Halaman Tentang Kami (About Us)
-Menampilkan sejarah dan latar belakang restoran "Rasa Nusantara".
+---
 
-Desain halaman dibuat elegan dan profesional dengan penataan teks dan warna yang rapi.
+### 🛠️ Fitur Admin
 
-Fitur Admin
-Halaman Login Admin
-Admin dapat masuk ke halaman admin melalui login sederhana yang divalidasi menggunakan JSON Server.
+#### Login Admin
 
-Sistem login ini tidak menggunakan autentikasi kompleks, namun cukup untuk simulasi kebutuhan pengelolaan.
+* Login sederhana menggunakan validasi terhadap data JSON Server
+* Tidak menggunakan autentikasi kompleks (cukup untuk simulasi)
 
-Dashboard Admin (Admin Menu)
-Admin dapat melihat daftar semua makanan dan minuman.
+#### Dashboard Admin
 
-Admin dapat menambahkan menu baru dengan form input yang mencakup nama, harga, kategori (makanan atau minuman), dan link gambar.
+* Daftar makanan & minuman dalam tampilan **tabel clean**
+* Tambah/edit/hapus menu via form input dengan validasi dasar
+* Pencarian berdasarkan nama item
+* Semua update tercermin langsung di tampilan pengguna
 
-Admin dapat mengedit dan menghapus menu yang ada.
+---
 
-Terdapat fitur filter pencarian berdasarkan nama item untuk memudahkan pencarian menu.
+### ⚙️ Teknologi dan Arsitektur
 
-Semua perubahan yang dilakukan oleh admin akan langsung tercermin di halaman pengguna.
+| Teknologi            | Deskripsi                                               |
+| -------------------- | ------------------------------------------------------- |
+| Vue.js 3 + Vite      | Framework utama untuk SPA (Single Page Application)     |
+| Pinia                | Manajemen state global (keranjang, makanan, minuman)    |
+| Vue Router           | Navigasi halaman                                        |
+| Axios                | Konsumsi data dari backend (GET/POST/PUT/DELETE)        |
+| JSON Server          | Simulasi REST API dengan `db.json`                      |
+| Manual CSS           | Desain bergaya modern minimalis                         |
+| Efek Shimmer & Modal | UI interaktif untuk loading dan konfirmasi aksi penting |
 
-Teknologi yang Digunakan
-Vue.js 3 dengan Vite
+---
 
-Pinia untuk manajemen state global (cartStore, foodStore, drinkStore)
+### 💡 Pengembangan Selanjutnya
 
-Vue Router untuk navigasi antar halaman
+Proyek ini dapat dikembangkan lebih lanjut dengan:
 
-JSON Server sebagai simulasi REST API backend (menggunakan file db.json)
+* Sistem autentikasi berbasis JWT
+* Integrasi metode pembayaran (simulasi atau gateway nyata)
+* Dashboard statistik admin
+* Desain responsif penuh untuk perangkat mobile
+* Paginasi dan kategori menu
 
-Axios untuk konsumsi data API (GET, POST, PUT, DELETE)
+---
 
-Manual CSS untuk styling agar terlihat lebih fleksibel dan profesional
+### 📌 Penutup
 
-Reactive UI dengan efek loading shimmer dan konfirmasi interaktif
+Dengan gaya **Modern Minimalis Kuliner**, aplikasi **Rasa Nusantara** menyajikan pengalaman pemesanan online yang **sederhana namun elegan**. Cocok sebagai studi kasus pengembangan frontend skala kecil-menengah dengan teknologi modern dan struktur modular.
 
-Seluruh data makanan, minuman, rating, dan ulasan disimpan dalam file db.json.
+---
 
-Proyek ini cocok digunakan untuk pembelajaran frontend development, karena menggabungkan berbagai konsep penting seperti reactive state, REST API, modular component, dan pengelolaan form input.
-
-Belum terdapat sistem autentikasi lanjutan (seperti token atau JWT), sehingga admin login hanya sebatas validasi berdasarkan data di server JSON.
-
-Struktur dan tampilan sudah dioptimalkan untuk tampilan desktop, namun bisa dikembangkan lebih lanjut agar responsif untuk perangkat mobile.
-
-Penutup
-Proyek ini diharapkan bisa menjadi contoh aplikasi pemesanan online yang dapat dikembangkan lebih lanjut. Dengan struktur kode yang modular dan penggunaan tools modern, aplikasi ini bisa dijadikan dasar untuk proyek-proyek serupa di masa mendatang.
-
-Jika Anda tertarik untuk menambahkan fitur baru seperti autentikasi JWT, pembayaran, dashboard statistik admin, atau responsivitas penuh untuk mobile, struktur proyek ini sudah cukup siap untuk dikembangkan lebih jauh.
+Jika kamu ingin, saya bisa bantu buatkan README.md versi GitHub-nya atau pitch deck presentasi. Mau lanjut ke mana?
