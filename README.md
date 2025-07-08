@@ -2,7 +2,7 @@ Berikut adalah versi **revisi deskripsi proyek** dengan **tema "Modern Minimalis
 
 ---
 
-## 🍴 Aplikasi Pemesanan Makanan dan Minuman - *Rasa Nusantara*
+## 🍴 Aplikasi Pemesanan Makanan dan Minuman
 
 **Rasa Nusantara** adalah aplikasi pemesanan makanan dan minuman berbasis **Vue.js 3** yang mengusung tema **Modern Minimalis Kuliner**. Aplikasi ini menghadirkan antarmuka yang bersih, sederhana, dan responsif, memprioritaskan **kenyamanan pengguna** dan **efisiensi navigasi**, baik bagi pelanggan maupun admin.
 
