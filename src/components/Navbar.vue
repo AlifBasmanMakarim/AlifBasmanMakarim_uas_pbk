@@ -1,8 +1,8 @@
 <template>
   <nav class="navbar">
     <div class="logo-container">
-      <div class="logo">🍽️ Rasa Nusantara</div>
-      <div class="tagline">Authentic Indonesian Flavors</div>
+      <div class="logo">Modern Minimalis Kuliner</div>
+      <div class="tagline">restoran modern dengan sentuhan budaya.</div>
     </div>
     <div class="nav-links">
       <router-link to="/">Home</router-link>
@@ -24,10 +24,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+  background: linear-gradient(135deg, #efebe9 0%, #d7ccc8 100%);
   padding: 12px 5%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  border-bottom: 2px solid #8d6e63;
+  border-bottom: 2px solid #6d4c41;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -39,7 +39,7 @@
 }
 
 .logo {
-  color: #2e7d32;
+  color: #4e342e;
   font-weight: 700;
   font-size: 22px;
   letter-spacing: 0.5px;
@@ -47,7 +47,7 @@
 }
 
 .tagline {
-  color: #8d6e63;
+  color: #6d4c41;
   font-size: 12px;
   font-weight: 500;
   margin-top: 2px;
@@ -61,7 +61,7 @@
 }
 
 .nav-links a {
-  color: #424242;
+  color: #5d4037;
   text-decoration: none;
   font-weight: 500;
   font-size: 15px;
@@ -72,8 +72,8 @@
 }
 
 .nav-links a:hover {
-  background-color: rgba(141, 110, 99, 0.1);
-  color: #5d4037;
+  background-color: rgba(93, 64, 55, 0.1);
+  color: #4e342e;
 }
 
 .nav-links a:hover::after {
@@ -83,11 +83,11 @@
   left: 12px;
   right: 12px;
   height: 2px;
-  background-color: #8d6e63;
+  background-color: #6d4c41;
 }
 
 .router-link-exact-active {
-  color: #2e7d32;
+  color: #4e342e;
   font-weight: 600;
 }
 
@@ -98,7 +98,7 @@
   left: 12px;
   right: 12px;
   height: 2px;
-  background-color: #2e7d32;
+  background-color: #4e342e;
 }
 
 .cart-link {
@@ -116,14 +116,14 @@
 }
 
 .admin-link {
-  background-color: #8d6e63;
+  background-color: #6d4c41;
   color: white !important;
   padding: 8px 16px !important;
   border-radius: 20px !important;
 }
 
 .admin-link:hover {
-  background-color: #6d4c41 !important;
+  background-color: #4e342e !important;
 }
 
 @media (max-width: 1024px) {
@@ -131,12 +131,12 @@
     flex-direction: column;
     padding: 15px;
   }
-  
+
   .logo-container {
     margin-bottom: 15px;
     text-align: center;
   }
-  
+
   .nav-links {
     flex-wrap: wrap;
     justify-content: center;

@@ -2,7 +2,7 @@
   <div class="admin-dashboard">
     <div class="sidebar">
       <div class="logo">
-        <h2>🍽️ Rasa Nusantara</h2>
+        <h2>Modern Minimalis Kuliner</h2>
         <p>Admin Dashboard</p>
       </div>
       <nav class="admin-nav">
@@ -47,7 +47,7 @@
             <span class="icon">💰</span>
             <h3>Pendapatan Hari Ini</h3>
           </div>
-          <div class="card-value">Rp 2.450.000</div>
+          <div class="card-value">Rp 3.550.000</div>
           <div class="card-change positive">+12% dari kemarin</div>
         </div>
 
@@ -56,7 +56,7 @@
             <span class="icon">📦</span>
             <h3>Pesanan Baru</h3>
           </div>
-          <div class="card-value">8</div>
+          <div class="card-value">10</div>
           <div class="card-change positive">+2 dari kemarin</div>
         </div>
 
@@ -65,7 +65,7 @@
             <span class="icon">🍽️</span>
             <h3>Menu Terpopuler</h3>
           </div>
-          <div class="card-value">Nasi Goreng</div>
+          <div class="card-value">Gado-Gado dengan Saus Kacang Halus</div>
           <div class="card-change">15 pesanan hari ini</div>
         </div>
 
@@ -116,11 +116,11 @@ export default {
   data() {
     return {
       recentOrders: [
-        { id: 'TX-1001', customer: 'Budi Santoso', total: 125000, status: 'Diproses' },
-        { id: 'TX-1000', customer: 'Ani Wijaya', total: 85000, status: 'Selesai' },
-        { id: 'TX-999', customer: 'Rudi Hermawan', total: 150000, status: 'Dikirim' },
-        { id: 'TX-998', customer: 'Siti Rahayu', total: 75000, status: 'Selesai' },
-        { id: 'TX-997', customer: 'Dewi Kartika', total: 110000, status: 'Dibatalkan' }
+        { id: 'TX-2005', customer: 'Agus Pranoto', total: 135000, status: 'Selesai' },
+        { id: 'TX-2004', customer: 'Maya Lestari', total: 92000, status: 'Dikirim' },
+        { id: 'TX-2003', customer: 'Joko Riyadi', total: 78000, status: 'Diproses' },
+        { id: 'TX-2002', customer: 'Lina Marlina', total: 160000, status: 'Dibatalkan' },
+        { id: 'TX-2001', customer: 'Eka Saputra', total: 105000, status: 'Selesai' }
       ]
     }
   },

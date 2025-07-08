@@ -2,22 +2,22 @@
   <div class="home-page">
     <div class="hero-section">
       <div class="hero-content">
-        <h1>Selamat Datang di Rasa Nusantara</h1>
-        <p class="subtitle">Nikmati Kelezatan Kuliner Nusantara yang Autentik</p>
-        <p class="description">Silakan pilih menu favorit Anda dan pesan dengan mudah!</p>
-        
+        <h1>Selamat Datang di Modern Minimalis Kuliner</h1>
+        <p class="subtitle">Restoran modern dengan sentuhan budaya</p>
+        <p class="description">Temukan menu terbaik kami dan nikmati pengalaman kuliner yang simpel dan elegan</p>
+
         <div class="home-buttons">
           <router-link to="/menu" class="btn btn-primary">
-            <span class="btn-icon">🍛</span>
-            <span>Lihat Menu Makanan</span>
+            <span class="btn-icon">🍽️</span>
+            <span>Menu Makanan</span>
           </router-link>
           <router-link to="/drinks" class="btn btn-accent">
-            <span class="btn-icon">🍹</span>
-            <span>Lihat Menu Minuman</span>
+            <span class="btn-icon">🥂</span>
+            <span>Menu Minuman</span>
           </router-link>
           <router-link to="/cart" class="btn btn-secondary">
             <span class="btn-icon">🛒</span>
-            <span>Lihat Keranjang</span>
+            <span>Keranjang</span>
           </router-link>
         </div>
       </div>
@@ -25,39 +25,33 @@
 
     <div class="features-section">
       <div class="feature-card">
-        <div class="feature-icon">🌱</div>
-        <h3>Bahan Segar</h3>
-        <p>Menggunakan bahan-bahan segar pilihan setiap hari</p>
+        <div class="feature-icon">🪴</div>
+        <h3>Desain Modern</h3>
+        <p>Interior dan sajian berkonsep minimalis yang memanjakan mata</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon">👨‍🍳</div>
-        <h3>Resep Tradisional</h3>
-        <p>Diolah dengan resep turun temurun yang autentik</p>
+        <div class="feature-icon">🍴</div>
+        <h3>Hidangan Elegan</h3>
+        <p>Perpaduan rasa klasik dan presentasi modern</p>
       </div>
       <div class="feature-card">
-        <div class="feature-icon">🚚</div>
-        <h3>Pengiriman Cepat</h3>
-        <p>Pesanan Anda akan sampai dengan cepat dan hangat</p>
+        <div class="feature-icon">⚡</div>
+        <h3>Pelayanan Cepat</h3>
+        <p>Pesanan disiapkan dengan efisiensi dan kualitas terjaga</p>
       </div>
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Home'
-}
-</script>
-
 <style scoped>
 .home-page {
   min-height: 100vh;
-  background-color: #f8f5f2;
+  background-color: #fdfcfa;
 }
 
 .hero-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-              url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+              url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1350&q=80');
   background-size: cover;
   background-position: center;
   padding: 120px 20px;
@@ -75,14 +69,14 @@ h1 {
   margin-bottom: 15px;
   font-weight: 700;
   font-family: 'Playfair Display', serif;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .subtitle {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 10px;
   font-weight: 500;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .description {
@@ -91,7 +85,7 @@ h1 {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .home-buttons {
@@ -122,11 +116,11 @@ h1 {
 }
 
 .btn-primary {
-  background-color: #2e7d32;
+  background-color: #6d4c41;
 }
 
 .btn-primary:hover {
-  background-color: #1b5e20;
+  background-color: #4e342e;
 }
 
 .btn-accent {
@@ -134,15 +128,15 @@ h1 {
 }
 
 .btn-accent:hover {
-  background-color: #6d4c41;
+  background-color: #5d4037;
 }
 
 .btn-secondary {
-  background-color: #424242;
+  background-color: #616161;
 }
 
 .btn-secondary:hover {
-  background-color: #212121;
+  background-color: #424242;
 }
 
 .btn-icon {
@@ -160,12 +154,12 @@ h1 {
 }
 
 .feature-card {
-  background: white;
+  background: #ffffff;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 12px;
   width: 300px;
   text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
 }
 
@@ -179,7 +173,7 @@ h1 {
 }
 
 .feature-card h3 {
-  color: #2e7d32;
+  color: #4e342e;
   margin-bottom: 15px;
   font-size: 1.3rem;
 }
@@ -194,16 +188,16 @@ h1 {
   h1 {
     font-size: 2rem;
   }
-  
+
   .subtitle {
     font-size: 1.2rem;
   }
-  
+
   .home-buttons {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .features-section {
     flex-direction: column;
     align-items: center;
